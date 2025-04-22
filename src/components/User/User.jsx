@@ -1,14 +1,24 @@
 import React from "react";
+import "./User.css";
 
 function User(props) {
-  const { id, name, email, age, paymentStatus, btnClass } = props;
+  const {
+    order,
+    id,
+    name,
+    trainingType,
+    trainingSchedule,
+    paymentStatus,
+    btnClass,
+  } = props;
   return (
     <>
       <div className="user-row">
+        <div>{order}</div>
         <div>{id}</div>
         <div>{name}</div>
-        <div>{email}</div>
-        <div>{age}</div>
+        <div>{trainingType}</div>
+        <div>{trainingSchedule}</div>
         <div>
           <span className={`badge ${btnClass} badge-role`}>
             {paymentStatus}
