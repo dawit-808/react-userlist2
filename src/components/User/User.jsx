@@ -1,7 +1,7 @@
 import React from "react";
 import "./User.css";
 
-function User(props) {
+const User = (props) => {
   const {
     order,
     id,
@@ -33,6 +33,6 @@ function User(props) {
       </div>
     </>
   );
-}
+};
 
 export default User;

@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import User from "./components/User/User";
 import users from "./assets/data";
 
-function App() {
+const App = () => {
   return (
     <>
       <div className="container gx-0 user-container">
@@ -41,6 +41,6 @@ function App() {
       </div>
     </>
   );
-}
+};
 
 export default App;
