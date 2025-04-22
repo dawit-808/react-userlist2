@@ -7,6 +7,7 @@ function User(props) {
     id,
     name,
     trainingType,
+    trainingDay,
     trainingSchedule,
     paymentStatus,
     btnClass,
@@ -18,6 +19,7 @@ function User(props) {
         <div>{id}</div>
         <div>{name}</div>
         <div>{trainingType}</div>
+        <div>{trainingDay}</div>
         <div>{trainingSchedule}</div>
         <div>
           <span className={`badge ${btnClass} badge-role`}>

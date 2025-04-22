@@ -9,6 +9,7 @@ function Header() {
         <div>id</div>
         <div>Name</div>
         <div>training type</div>
+        <div>training day</div>
         <div>training schedule</div>
         <div>Payment</div>
         <div>Actions</div>

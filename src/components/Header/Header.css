@@ -1,7 +1,7 @@
 /* Header.css */
 .user-header {
   display: grid;
-  grid-template-columns: 40px 1.5fr 2fr 2fr 2fr 100px 80px;
+  grid-template-columns: 40px 1.5fr 2fr 2fr 2fr 2fr 100px 80px;
   padding: 16px 24px;
   align-items: center;
   background-color: #1f2937;
