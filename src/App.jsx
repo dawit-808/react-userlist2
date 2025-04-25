@@ -21,8 +21,7 @@ const App = () => {
             },
             i
           ) => {
-            const btnClass =
-              paymentStatus === "Paid" ? "bg-success" : "bg-danger";
+            const btnClass = paymentStatus === "Paid" ? "green" : "red";
             return (
               <User
                 key={id}

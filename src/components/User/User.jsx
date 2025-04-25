@@ -22,9 +22,7 @@ const User = (props) => {
         <div>{trainingDay}</div>
         <div>{trainingSchedule}</div>
         <div>
-          <span className={`badge ${btnClass} badge-role`}>
-            {paymentStatus}
-          </span>
+          <span className={`payment ${btnClass}`}>{paymentStatus}</span>
         </div>
         <div className="action-icons">
           <i className="bi bi-pencil-square" title="Edit"></i>

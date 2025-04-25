@@ -53,7 +53,7 @@ const users = [
     trainingType: "Both",
     trainingDay: "Tuesday",
     trainingSchedule: "Morning",
-    paymentStatus: "Unpaid",
+    paymentStatus: "Paid",
   },
   {
     id: "RAST0008",
@@ -77,7 +77,7 @@ const users = [
     trainingType: "Machine",
     trainingDay: "Tuesday",
     trainingSchedule: "Afternoon",
-    paymentStatus: "Unpaid",
+    paymentStatus: "Paid",
   },
 ];
 

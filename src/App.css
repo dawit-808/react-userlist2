@@ -12,3 +12,10 @@ body {
   overflow: hidden;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
 }
+
+.red {
+  color: #d64749;
+}
+.green {
+  color: #3bd671;
+}
