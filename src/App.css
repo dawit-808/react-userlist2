@@ -1,13 +1,13 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial;
-  background-color: #f2f4f7;
+  background-color: #131a25;
 }
 
 .user-container {
   max-width: 1000px;
   margin: 60px auto;
-  background-color: white;
+  background-color: #1c2434;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
